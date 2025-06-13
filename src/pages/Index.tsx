@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Star, Users, Wifi, Car, Grill, Flower2 } from "lucide-react";
+import { MapPin, Star, Users, Wifi, Car, Flame, Flower2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 
@@ -62,7 +61,7 @@ const Index = () => {
               { icon: Users, text: "Bis zu 4 Gäste", color: "text-blue-600" },
               { icon: Wifi, text: "Kostenloses WLAN", color: "text-green-600" },
               { icon: Car, text: "Kostenloser Parkplatz", color: "text-purple-600" },
-              { icon: Grill, text: "Garten & Grill", color: "text-orange-600" }
+              { icon: Flame, text: "Garten & Grill", color: "text-orange-600" }
             ].map((feature, index) => (
               <Card key={index} className="text-center p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-0 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-0">

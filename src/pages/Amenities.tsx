@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
   Wifi, 
   Car, 
-  Grill, 
+  Flame, 
   Users, 
   Bed, 
   Bath, 
@@ -40,7 +40,7 @@ const Amenities = () => {
         { icon: Coffee, text: "Voll ausgestattete Küche" },
         { icon: Coffee, text: "Kaffeemaschine" },
         { icon: Utensils, text: "Geschirr und Besteck" },
-        { icon: Grill, text: "Grill im Garten" },
+        { icon: Flame, text: "Grill im Garten" },
       ]
     },
     {
@@ -60,7 +60,7 @@ const Amenities = () => {
       color: "text-orange-600",
       items: [
         { icon: Trees, text: "Großer Garten" },
-        { icon: Grill, text: "Grillplatz" },
+        { icon: Flame, text: "Grillplatz" },
         { icon: Trees, text: "Gartenmöbel" },
         { icon: Trees, text: "Ruhige Lage" },
       ]
